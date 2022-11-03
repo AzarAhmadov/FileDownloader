@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+html,
+body {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  background: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-position: center center;
+  place-items: center;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html .file .file-container,
+body .file .file-container {
+  border: 2px solid rgba(223, 122, 28, 0.5568627451);
+  border-radius: 5px;
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+html .file .file-container h1,
+body .file .file-container h1 {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+html .file .file-container p,
+body .file .file-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+html .file .file-container form,
+body .file .file-container form {
+  margin-top: 10px;
+}
+html .file .file-container form input,
+body .file .file-container form input {
+  width: 100%;
+  padding: 13px 15px;
+  font-family: sans-serif;
+  font-size: 17px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+html .file .file-container form input::-moz-placeholder, body .file .file-container form input::-moz-placeholder {
+  color: #fff;
+}
+html .file .file-container form input:-ms-input-placeholder, body .file .file-container form input:-ms-input-placeholder {
+  color: #fff;
+}
+html .file .file-container form input::placeholder,
+body .file .file-container form input::placeholder {
+  color: #fff;
+}
+html .file .file-container form input:valid ~ button,
+body .file .file-container form input:valid ~ button {
+  opacity: 1;
+  pointer-events: auto;
+}
+html .file .file-container form button,
+body .file .file-container form button {
+  background: none;
+  width: 100%;
+  border: none;
+  background: #DF7B1C;
+  padding: 13px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+  pointer-events: none;
+}/*# sourceMappingURL=style.css.map */
