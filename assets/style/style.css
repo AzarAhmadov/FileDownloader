@@ -81,4 +81,21 @@ body .file .file-container form button {
   cursor: pointer;
   opacity: 0.7;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 700px) {
+  html .file,
+body .file {
+    padding: 0 10px;
+  }
+  html .file .file-container h1,
+body .file .file-container h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  html .file .file-container p,
+body .file .file-container p {
+    text-align: center;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
